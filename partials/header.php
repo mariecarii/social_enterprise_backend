@@ -19,18 +19,18 @@ require 'config/database.php';
         <div class="container nav__container">
             <a href="index.html" class="nav__logo">Seeds of Life</a>
             <ul class="nav__items">
-                <li><a href="blog.php">Foods In Season</a></li>
-                <li><a href="about.php">About Us</a></li>
-                <li><a href="services.php">Services</a></li>
-                <li><a href="contact.php">Contact</a></li>
-                <!-- <li><a href="signin.html">SignIn</a></li> -->
+                <li><a href="<?= ROOT_URL?> blog.php">Foods In Season</a></li>
+                <li><a href="<?= ROOT_URL?> about.php">About Us</a></li>
+                <li><a href="<?= ROOT_URL?> services.php">Services</a></li>
+                <li><a href="<?= ROOT_URL?> contact.php">Contact</a></li>
+                <!-- <li><a href="<?= ROOT_URL?> signin.html">SignIn</a></li> -->
                 <li class="nav__profile">
                     <div class="avatar">
                         <img src="./images/farmer1_avatar.png">
                     </div>
                     <ul>
-                        <li><a href="dashboard.html">Dashboard</a></li>
-                        <li><a href="logout.html">Logout</a></li>
+                        <li><a href="<?= ROOT_URL?>admin/dashboard.html">Dashboard</a></li>
+                        <li><a href="<?= ROOT_URL?>logout.html">Logout</a></li>
                     </ul>
                 </li>
             </ul>

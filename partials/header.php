@@ -17,12 +17,12 @@ require 'config/database.php';
 <body>
     <nav>
         <div class="container nav__container">
-            <a href="index.html" class="nav__logo">Seeds of Life</a>
+            <a href="http://localhost/blog/" class="nav__logo">Seeds of Life</a>
             <ul class="nav__items">
-                <li><a href="<?= ROOT_URL?> blog.php">Foods In Season</a></li>
-                <li><a href="<?= ROOT_URL?> about.php">About Us</a></li>
-                <li><a href="<?= ROOT_URL?> services.php">Services</a></li>
-                <li><a href="<?= ROOT_URL?> contact.php">Contact</a></li>
+                <li><a href="http://localhost/blog/blog.php">Foods In Season</a></li>
+                <li><a href="<?= ROOT_URL?>about.php">About Us</a></li>
+                <li><a href="<?= ROOT_URL?>services.php">Services</a></li>
+                <li><a href="<?= ROOT_URL?>contact.php">Contact</a></li>
                 <!-- <li><a href="<?= ROOT_URL?> signin.html">SignIn</a></li> -->
                 <li class="nav__profile">
                     <div class="avatar">
